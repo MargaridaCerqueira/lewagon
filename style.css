@@ -1,0 +1,69 @@
+body{
+    background-image: url(Imagens/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Oswald', sans-serif;
+}
+.logo{
+    color: rgb(243, 208, 10);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.nav-links{
+    display: flex;
+    justify-content:space-around;
+    width: 40%;
+}
+.nav-links a{
+    color: rgb(46, 46, 46);
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a:hover{
+    color: rgb(243, 208, 10);
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-left: 205px;
+    margin-top: 150px;
+    color: rgb(46, 46, 46);
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 150px;
+    margin-top: 240px;
+    color: rgb(46, 46, 46);
+}
+.contactos{
+    margin-left: 110px;
+    margin-top: 20px;    
+    align-items: center;
+}
+.contactos li{
+    list-style: none; 
+    display: inline; 
+}
+.contactos a{
+    font-size: 20px;
+    color: rgb(46, 46, 46);
+    letter-spacing: 15px;
+}
+.contactos a:hover{
+    color: rgb(243, 208, 10);
+}
